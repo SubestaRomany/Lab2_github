@@ -1,10 +1,9 @@
->> Remove Locally    
-   ___
+>> Remove Locally           ___
    git branch -d dev
    git branch -d test
 
 >> Remove Remotly
-___
+         ___
      git push origin --delete dev
      git push origin --delete test
 
@@ -19,5 +18,5 @@ ___
  git checkout test(for example)
 
 >>When you’re ready to get your changes back
- ___
+           ___
    git stash pop
